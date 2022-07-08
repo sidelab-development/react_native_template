@@ -1,5 +1,6 @@
-import { Text } from "../../components/Text";
-import { Container } from "./styles";
+import { Text } from '../../components/Text';
+
+import { Container } from './styles';
 
 export default function Home() {
   return (

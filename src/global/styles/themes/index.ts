@@ -1,3 +1,3 @@
-import { defaulTheme } from "./default";
+import { defaultTheme } from './default';
 
-export default { defaulTheme }
+export default { defaultTheme }

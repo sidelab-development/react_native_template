@@ -1,15 +1,14 @@
-import styled from "styled-components/native";
+import styled from 'styled-components/native';
 
 export const Container = styled.TouchableOpacity`
-  width: 200px;
-  background-color: '#696969';
   border-radius: 15px;
   align-items: center;
-  padding: ${({ theme }) => theme.constants.custom_padding}%;
+  background-color: ${({ theme }) => theme.colors.primary};
+  padding: ${({ theme }) => theme.constants.screen_padding}px;
 `
 
 export const Title = styled.Text`
-  color: '#000000';
+  color: #222222;
   font-weight: 800;
   font-size: ${({ theme }) => theme.fontsize.font_medium}px;
 `
