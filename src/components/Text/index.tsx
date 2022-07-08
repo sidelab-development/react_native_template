@@ -1,14 +1,13 @@
-import React from "react";
-import { DefaultText } from "./styles";
+import React from 'react';
+
+import { DefaultText } from './styles';
 
 type TextProps = {
-  children: React.ReactNode
+  children: React.ReactNode;
 }
 
 export function Text({ children }: TextProps) {
   return (
-    <>
-      <DefaultText>{children}</DefaultText>
-    </>
+    <DefaultText>{children}</DefaultText>
   )
 }
